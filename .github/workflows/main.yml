@@ -1,10 +1,7 @@
-#sample run
 on: push
 jobs: 
   first_job: 
     runs-on: windows-latest
     steps:
-      - name: Check Node.js version
-        run: node --version
-      - name: Check npm version
-        run: npm --version
+      - run: node --version
+      - run: npm --version
