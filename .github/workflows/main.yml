@@ -1,6 +1,6 @@
 on: push
 jobs: 
-  first_workflowjob: 
+  first_workflowjobs: 
     runs-on: windows-latest
     steps:
       - run: node --version
